@@ -11,10 +11,12 @@ pip install pandas numpy scikit-learn surprise plotly matplotlib dask[complete]
 
 **Data Setup**
 1. Download MovieLens 25M from [MovieLens](https://grouplens.org/datasets/movielens/25m/).
-2. Unzip to `ml-25m` in the project root. Ensure CSV files are inside.
+2. Unzip `ml-25m.zip` in the project root. Ensure CSV files are inside.
 
 **Usage**
 - Run `rc_final.ipynb`.
+- Run a single part at a time.
+- Use `factor_of_data` to load only a subset of original MovieLens dataset.
 - Follow comments in the notebook for guidance.
 
 **Features**
