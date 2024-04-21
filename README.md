@@ -16,7 +16,7 @@ pip install pandas numpy scikit-learn surprise plotly matplotlib dask[complete]
 **Usage**
 - Run `rc_final.ipynb`.
 - Run a single part at a time.
-- Use `factor_of_data` to load only a subset of original MovieLens dataset.
+- Use `factor_of_data` variable to load only a subset of original MovieLens dataset.
 - Follow comments in the notebook for guidance.
 
 **Features**
