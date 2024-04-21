@@ -14,7 +14,7 @@ pip install pandas numpy scikit-learn surprise plotly matplotlib dask[complete]
 2. Unzip to `ml-25m` in the project root. Ensure CSV files are inside.
 
 **Usage**
-- Run `rc.ipynb`.
+- Run `rc_final.ipynb`.
 - Follow comments in the notebook for guidance.
 
 **Features**
