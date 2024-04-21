@@ -6,7 +6,7 @@
 
 **Installation**
 ```bash
-pip install pandas numpy scikit-learn surprise plotly matplotlib
+pip install pandas numpy scikit-learn surprise plotly matplotlib dask[complete]
 ```
 
 **Data Setup**
