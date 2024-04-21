@@ -24,8 +24,20 @@ pip install pandas numpy scikit-learn surprise plotly matplotlib dask[complete]
 - Output predictions to CSV.
 
 **Models**
-- Utilizes SVD, SVDpp from Surprise, and TfidfVectorizer from Scikit-Learn.
-- Implements a hybrid recommendation model.
+- Models:
+1. Popularity based model 
+2. Content based model 
+3. Collaborative Filtering
+4. Matrix Factorization method
+5. Combined model (SVD + CF) 
+6. Hybrid model
+
+**Similarity Metrics**
+1. Cosine similarity
+2. Mean square difference-based similarity.
+3. Pearson coefficient (mean-centred cosine similarity)
+4. Pearson Baseline (uses global baselines for centring instead of means)
+
 
 **Visualizations**
 - Generate plots using matplotlib and plotly (if uncommented).
